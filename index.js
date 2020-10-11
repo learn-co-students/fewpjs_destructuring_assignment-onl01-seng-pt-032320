@@ -15,7 +15,7 @@ const k_muppet = {
   k_color: 'green',
   k_album: {
     the_muppet_movie: {
-      song_1: 'Rainbow Connection',
+      song_1: 'The Rainbow Connection',
       song_2: 'Moving Right Along',
       song_3: 'Never Before, Never Again',
       song_4: 'I Hope That Something Better Comes Along',
@@ -24,6 +24,15 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ');
+const [Bessie, ,Dolly, Babe, Little] = farmAnimals.split(' ');
+const [black_and_white, ,black, pink,] = farmAnimals.split(' ');
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
+const [r, o, y, g, b, ,v] = colors;
+const [, , , , ,indg,] = colors;
+const { k_name: name, k_color: color, k_album: {the_muppet_movie: {song_1: song}}, k_job: job, k_partner: partner } = k_muppet;
+const { k_album: {the_muppet_movie: {song_2: song_2, song_4: song_4}}, k_job: k_job, k_partner: k_partner } = k_muppet;
 
 // Strings
 
